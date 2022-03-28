@@ -63,5 +63,4 @@ app.post("/api/notes", (req, res) => {
 
 //TODO: DELETE method
 
-app.listen(PORT, () => 
-    console.log(`App listening on ${PORT}!`));
+app.listen(PORT, () => console.log(`App listening on ${PORT}!`));
